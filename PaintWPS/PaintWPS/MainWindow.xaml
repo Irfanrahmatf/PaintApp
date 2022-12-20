@@ -1,0 +1,34 @@
+﻿<Window x:Class="PaintWPS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PaintWPS"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <ToolBarTray>
+            <ToolBar>
+                <Button x:Name="btnPencil" Click="btnPencil_Click">
+                    <Image Source="/reshot-icon-pencil-UJCNSZM3L7.png" Height="27" Width="16"/>
+                </Button>
+                <Button x:Name="btnEraser" Click="btnEraser_Click">
+                    <Image Source="/eraser-20-filled.png" Height="26" Width="18"/>
+                </Button>
+                <Button x:Name="btnFill" Click="btnFill_Click">
+                    <Image Source="/format_color_fill_black_24dp.png" Height="18" Width="18"/>
+                </Button>
+                <Button x:Name="btnText" Click="btnText_Click">
+                    <Image Source="/reshot-icon-text-tool-CMSRB2UHWY.png" Height="22" Width="20"/>
+                </Button>
+            </ToolBar>
+        </ToolBarTray>
+        <Canvas x:Name="canvas" Grid.Row="1"/>
+    </Grid>
+
+</Window>
