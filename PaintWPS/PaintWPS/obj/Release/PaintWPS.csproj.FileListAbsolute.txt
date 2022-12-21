@@ -1,0 +1,6 @@
+E:\Irfan-\File Data\Visual Studio\C#\PaintWPS\PaintWPS\obj\Release\PaintWPS.csproj.AssemblyReference.cache
+E:\Irfan-\File Data\Visual Studio\C#\PaintWPS\PaintWPS\obj\Release\PaintWPS.csproj.SuggestedBindingRedirects.cache
+E:\Irfan-\File Data\Visual Studio\C#\PaintWPS\PaintWPS\obj\Release\MainWindow.g.cs
+E:\Irfan-\File Data\Visual Studio\C#\PaintWPS\PaintWPS\obj\Release\App.g.cs
+E:\Irfan-\File Data\Visual Studio\C#\PaintWPS\PaintWPS\obj\Release\PaintWPS_MarkupCompile.cache
+E:\Irfan-\File Data\Visual Studio\C#\PaintWPS\PaintWPS\obj\Release\PaintWPS_MarkupCompile.lref
